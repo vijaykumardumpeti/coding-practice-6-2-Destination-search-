@@ -70,7 +70,9 @@ const destinationsList = [
 ]
 
 const App = () => (
-  <div>{<DestinationSearch destinationsList={destinationsList} />}</div>
+  <div className="">
+    <DestinationSearch destinationsList={destinationsList} />
+  </div>
 )
 
 export default App
