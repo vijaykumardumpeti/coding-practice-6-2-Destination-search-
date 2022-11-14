@@ -9,10 +9,10 @@ class DestinationItem extends Component {
     const {name, imgUrl} = eachObject
 
     return (
-      <div key={key}>
-        <img src={imgUrl} className="image" alt="avatar" />
+      <li className="list" key={key}>
+        <img src={imgUrl} className="image" alt="search icon" />
         <p className="paragraph">{name} </p>
-      </div>
+      </li>
     )
   }
 }
