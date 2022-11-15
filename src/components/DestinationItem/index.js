@@ -10,7 +10,7 @@ class DestinationItem extends Component {
 
     return (
       <li className="list" key={key}>
-        <img src={imgUrl} className="image" alt="search icon" />
+        <img src={imgUrl} className="image" alt={name} />
         <p className="paragraph">{name} </p>
       </li>
     )
